@@ -1,0 +1,7 @@
+<h1>
+    Faça seu login
+</h1>
+<form>
+    <input type="text" name="user">
+    <button type="submit">Entrar</button>
+</form>

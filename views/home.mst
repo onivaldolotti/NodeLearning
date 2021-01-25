@@ -1,0 +1,15 @@
+{{> header}}
+
+<h1>Seja bem vindo</h1>
+
+<p>Nome: {{userInfo.name}}</p>
+
+<!--{{#mostrar}}-->
+<!--<p>Nome: {{nome}} - Idade: {{idade}}</p>-->
+<!--{{/mostrar}}-->
+
+<!--<ul>-->
+<!--    {{#ingredientes}}-->
+<!--        <li> {{nome}} - {{qt}}</li>-->
+<!--    {{/ingredientes}}-->
+<!--</ul>-->

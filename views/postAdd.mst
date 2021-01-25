@@ -1,0 +1,19 @@
+<h2>Novo Post</h2>
+
+<form method="post">
+    <label>
+        Titulo:
+        <input type="text" name="title">
+    </label>
+    <br/>
+    <label>
+        Corpo:
+        <textarea name="body"></textarea>
+    </label>
+    <br/>
+    <label>
+        Tags:
+    </label>
+    <br/>
+    <button type="submit">Salvar</button>
+</form>
