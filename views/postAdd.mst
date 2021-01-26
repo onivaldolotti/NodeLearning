@@ -1,6 +1,12 @@
+{{> header}}
 <h2>Novo Post</h2>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
+    <label>
+        Imagem:
+        <input type="file" name="photo">
+    </label>
+    <br/>
     <label>
         Titulo:
         <input type="text" name="title">
@@ -13,6 +19,9 @@
     <br/>
     <label>
         Tags:
+        <input type="text" name="tags">
+        <br/>
+        <small>Separar as tags por virgula</small>
     </label>
     <br/>
     <button type="submit">Salvar</button>

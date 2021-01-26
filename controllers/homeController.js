@@ -1,4 +1,7 @@
-exports.index = (req, res) => {
+const mongoose = require('mongoose');
+const Post = mongoose.model('Post');
+
+exports.index = async (req, res) => {
     // let nome = req.query.nome;
     // let sobrenome = req.query.sobrenome;
     //
@@ -21,11 +24,21 @@ exports.index = (req, res) => {
     //     ]
     // }
 
-    let obj = {
-        pageTitle: "teste 123",
-        userInfo: {name: 'Onivaldo'}
+    let responseJson = {
+        pageTitle: "HOME",
+        userInfo: {name: 'Onivaldo'},
+        posts: [],
+        tags: []
     }
-    res.render('home', obj);
+    const tags = await Post.getTagsList();
+    responseJson.tags = tags;
+
+    console.log(tags);
+
+    const posts = await Post.find();
+    responseJson.posts = posts;
+
+    res.render('home', responseJson);
 };
 
 //
