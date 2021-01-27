@@ -35,7 +35,7 @@ postSchema.statics.getTagsList = function() {
     return this.aggregate([
         {$unwind: '$tags'},
         {$group: {_id:'$tags', count:{$sum:1}}},
-        {$sort:{ count:-1}}
+        {$sort:{ count:-1, _id:-1}}
     ]);
 };
 

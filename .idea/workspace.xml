@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d359f7bd-9087-464a-82bb-f0d3f8c7ae52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlwares/imageMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/postEdit.mst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/view.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlwares/authMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.mst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/homeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/homeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/postController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/template.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.env" beforeDir="false" afterPath="$PROJECT_DIR$/variables.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.mst" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.mst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.mst" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.mst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/header.mst" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.mst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/postAdd.mst" beforeDir="false" afterPath="$PROJECT_DIR$/views/postAdd.mst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,8 @@
       <updated>1611581516557</updated>
       <workItem from="1611581517786" duration="17724000" />
       <workItem from="1611660565926" duration="10807000" />
-      <workItem from="1611678242787" duration="11124000" />
+      <workItem from="1611678242787" duration="11301000" />
+      <workItem from="1611764024764" duration="10217000" />
     </task>
     <servers />
   </component>
