@@ -17,7 +17,6 @@ const multerOptions = {
 exports.upload = multer(multerOptions).single('photo');
 
 exports.resize = async (req, res, next) => {
-   console.log(req.file)
     if(!req.file) {
         next();
         return;
